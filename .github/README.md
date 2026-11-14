@@ -1,12 +1,12 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-directory-service-data`](https://www.npmjs.com/package/@aws-sdk/client-directory-service-data/v/3.1168.0).
+[`@aws-sdk/client-directory-service-data`](https://www.npmjs.com/package/@aws-sdk/client-directory-service-data/v/3.1169.0).
 
 Refer to the links below for detailed documentation:
 - All Services - [https://cloud-sdk-builds.github.io](https://cloud-sdk-builds.github.io/)
 - @aws-sdk/client-directory-service-data - [https://cloud-sdk-builds.github.io/?sdk=client-directory-service-data](https://cloud-sdk-builds.github.io/?sdk=client-directory-service-data)
-- @aws-sdk/client-directory-service-data v3.1168.0 - [https://cloud-sdk-builds.github.io/?sdk=client-directory-service-data&version=3.1168.0](https://cloud-sdk-builds.github.io/?sdk=client-directory-service-data&version=3.1168.0)
+- @aws-sdk/client-directory-service-data v3.1169.0 - [https://cloud-sdk-builds.github.io/?sdk=client-directory-service-data&version=3.1169.0](https://cloud-sdk-builds.github.io/?sdk=client-directory-service-data&version=3.1169.0)
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -33,13 +33,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-directory-service-data@3.1168.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-directory-service-data@3.1169.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-w2iIocR/9dwsyWkuRikcE1uPwXxgq2hYG2ykC3UTSRWW6di+2d/7M8TH32MxpWk8
+sha384-JTLIT42NlbJD5edS4GQbnWrZg0oBxkqtq7KmCFv7I7kxI6ASoh7rRONCSuWUMPAj
 ```
 
 ### 📌 Latest Version
@@ -66,10 +66,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-directory-service-data": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-directory-service-data@3.1168.0/index.min.mjs"
+            "@aws-sdk/client-directory-service-data": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-directory-service-data@3.1169.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-directory-service-data@3.1168.0/index.min.mjs": "sha384-w2iIocR/9dwsyWkuRikcE1uPwXxgq2hYG2ykC3UTSRWW6di+2d/7M8TH32MxpWk8"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-directory-service-data@3.1169.0/index.min.mjs": "sha384-JTLIT42NlbJD5edS4GQbnWrZg0oBxkqtq7KmCFv7I7kxI6ASoh7rRONCSuWUMPAj"
         }
       }
 </script>
@@ -86,10 +86,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-directory-service-data": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-directory-service-data@3.1168.0/index.min.mjs"
+                        "@aws-sdk/client-directory-service-data": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-directory-service-data@3.1169.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-directory-service-data@3.1168.0/index.min.mjs": "sha384-w2iIocR/9dwsyWkuRikcE1uPwXxgq2hYG2ykC3UTSRWW6di+2d/7M8TH32MxpWk8"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-directory-service-data@3.1169.0/index.min.mjs": "sha384-JTLIT42NlbJD5edS4GQbnWrZg0oBxkqtq7KmCFv7I7kxI6ASoh7rRONCSuWUMPAj"
                     }
                   }
             </script>
@@ -156,7 +156,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.1168.0`)
+* Always pin to a specific version (`@3.1169.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -176,7 +176,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-directory-service-data/blob/refs/tags/3.1168.0/LICENSE
+https://github.com/cloud-sdk-builds/client-directory-service-data/blob/refs/tags/3.1169.0/LICENSE
 ```
 
 ---
